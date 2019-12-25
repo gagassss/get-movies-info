@@ -2,7 +2,7 @@ function searchmovie()
 {
   $('#movie-list').html('');
   $.ajax({
-    url        : 'http://www.omdbapi.com',
+    url        : 'https://cors-anywhere.herokuapp.com/http://www.omdbapi.com',
     type       : 'get',
     dataType   : 'json',
     data       : {
@@ -59,7 +59,7 @@ $('#search-input').on('keyup', function(e){
 $('#movie-list').on('click', '.see-detail', function(){
   // console.log($(this).data('id'));
   $.ajax({
-    url        : 'http://www.omdbapi.com',
+    url        : 'https://cors-anywhere.herokuapp.com/http://www.omdbapi.com',
     type       : 'get',
     dataType   : 'json',
     data       : {
