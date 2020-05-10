@@ -1,4 +1,4 @@
 the first time I learned REST API with JavaScript framework
 
 
-[DEMO](https://gagassss.github.io/get-movies-info/)
+[go to website](https://gagassss.github.io/getting-started-with-OMDB-API/)
